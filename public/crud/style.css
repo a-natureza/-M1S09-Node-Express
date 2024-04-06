@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+.responsive-image {
+    width: 50%; /* Ou o tamanho que você preferir */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como bloco para aplicar margin auto */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+.header {
+    background-color: #850ba7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Garante que o header ocupe a largura total */
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: center; /* Centraliza o texto e outros conteúdos inline dentro da .content */
+    max-width: 600px; /* Define uma largura máxima para a .content para não esticar demais em telas grandes */
+    width: 100%; /* Garante que a content se ajuste à largura do seu contêiner pai, até 600px */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adiciona uma sombra leve para um pouco de profundidade */
+}
+
+.footer {
+    background-color: #09b826;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
